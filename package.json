@@ -1,0 +1,19 @@
+{
+  "name": "copare-template",
+  "version": "1.0.0",
+  "author": "Kevin Hollmann",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VeegY/copare-template"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0 <7.0.0"
+  },
+  "scripts": {
+    "prepare": "gulp rebuild:lib"
+  }
+}
