@@ -10,6 +10,7 @@ However, in order to support enhancement of the pipeline itself gulp was chosen.
 processes to be run by a single entity, such as testing, documentation generation and other things.
  
 *ToDo*
+* [ ] Set-Up [eslint rules](https://eslint.org/docs/rules/) - Most importantly the once that can be fixed with --fix.
 * [ ] Basic Code Structure and NPM dependencies 
 * [ ] Add Release notes handler 
 * [ ] Add more todo items
