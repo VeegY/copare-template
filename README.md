@@ -22,3 +22,9 @@ ToDo Links
 * [ ] Add more todo items
 
 ## Usage
+1. (Navigate to the repository [github page](https://github.com/VeegY/copare-template))
+2. Click the ``Use this template`` button in the top right corner.
+3. Change the following values: 
+    * foo - TODO
+    * bar - TODO
+    * baz - TODO
