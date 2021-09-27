@@ -33,8 +33,10 @@ version-resolver:
   minor:
     labels:
       - 'minor'
+      - 'enhancement'
   patch:
     labels:
+      - 'bug'
       - 'patch'
   default: patch
 template: |
