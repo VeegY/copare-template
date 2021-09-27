@@ -16,6 +16,10 @@
   "scripts": {
     "prepare": "gulp rebuild:lib"
   },
+  "files": [
+    "lib",
+    "README.md"
+  ],
   "devDependencies": {
     "@types/chai": "^4.2.22",
     "@types/gulp": "^4.0.9",
@@ -23,6 +27,7 @@
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
     "chai": "^4.3.4",
+    "del": "^6.0.0",
     "eslint": "^7.32.0",
     "gulp": "^4.0.2",
     "gulp-eslint": "^6.0.0",
