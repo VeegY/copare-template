@@ -1,4 +1,3 @@
-/** Just a very simple example */
 export interface Clock {
     hours: number;
     minutes: number;
