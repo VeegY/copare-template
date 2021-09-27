@@ -5,6 +5,7 @@ export interface Clock {
     seconds: number;
 }
 
+/** JUST A CODE CHANGE */
 export function getTime(): Clock {
     const date = new Date();
     return {
