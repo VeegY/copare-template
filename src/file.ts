@@ -1,11 +1,9 @@
-/** Just a very simple example */
 export interface Clock {
     hours: number;
     minutes: number;
     seconds: number;
 }
 
-/** JUST A CODE CHANGE */
 export function getTime(): Clock {
     const date = new Date();
     return {
