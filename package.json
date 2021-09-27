@@ -1,10 +1,10 @@
 {
-  "name": "copare-template",
+  "name": "@veegy/copare-template",
   "version": "1.0.0",
   "author": "Kevin Hollmann",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VeegY/copare-template"
+    "url": "https://github.com/VeegY/copare-template.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
