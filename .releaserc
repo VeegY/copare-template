@@ -16,5 +16,6 @@
         "commitsSort": ["subject", "scope"]
       }
     }]
-  ]
+  ],
+  "debug": true
 }
