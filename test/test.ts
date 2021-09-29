@@ -1,8 +1,8 @@
 import "mocha";
 import {expect} from "chai";
 
-describe("The Test case", function(){
-    it("should compare boolean values as correctly", function(){
+describe("The test framework", function(){
+    it("should compare boolean values correctly", function(){
         expect(true).to.be.equal(true);
     })
 })
