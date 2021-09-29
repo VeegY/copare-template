@@ -1,6 +1,6 @@
 {
   "name": "@veegy/copare-template",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "author": "Kevin Hollmann",
   "repository": {
     "type": "git",
@@ -18,15 +18,12 @@
     "README.md"
   ],
   "devDependencies": {
-    "@semantic-release/commit-analyzer": "^9.0.1",
-    "@semantic-release/release-notes-generator": "^10.0.2",
     "@types/chai": "^4.2.22",
     "@types/gulp": "^4.0.9",
     "@types/mocha": "^9.0.0",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
     "chai": "^4.3.4",
-    "conventional-changelog-eslint": "^3.0.9",
     "del": "^6.0.0",
     "eslint": "^7.32.0",
     "gulp": "^4.0.2",
