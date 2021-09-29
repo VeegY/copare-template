@@ -1,6 +1,6 @@
 {
   "name": "@veegy/copare-template",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "author": "Kevin Hollmann",
   "repository": {
     "type": "git",
@@ -10,7 +10,8 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "prepare": "gulp rebuild:lib"
+    "prepare": "gulp rebuild:lib",
+    "test": "gulp test"
   },
   "files": [
     "lib",
