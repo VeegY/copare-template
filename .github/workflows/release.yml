@@ -14,10 +14,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Use Node v16
+      # Using Node v14 because npm > 6.x.x is provided in that
+      - name: Use Node v14
         uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 14
           cache: 'npm'
 
       - name: Install dependencies
@@ -29,8 +30,8 @@ jobs:
           CI: true
 
       # Building the package is handled within the prepare npm phase
-      # - name: Build package
-      #  run: npm run build
+      - name: Build package
+        run: npm run build:lib
 
       - name: Release new version to NPM
         env:

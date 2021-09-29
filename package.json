@@ -10,7 +10,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "prepare": "gulp rebuild:lib",
+    "build:lib": "gulp rebuild:lib",
     "test": "gulp test"
   },
   "files": [
