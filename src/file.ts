@@ -1,4 +1,4 @@
-/** Clock interface */
+/** clock interface */
 export interface Clock {
     hours: number;
     minutes: number;
