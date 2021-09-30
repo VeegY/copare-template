@@ -45,8 +45,9 @@ jobs:
         run: npx semantic-release
 
       # Automatic merge master into develop to keep develop up to date
-      - name: Update develop branch
-        run: |
+      # - name: Update develop branch
+      - uses: actions/checkout@v2
+      - run: |
           git config user.name VeegY
           git config user.email kh@imagineon.de
           git checkout develop
