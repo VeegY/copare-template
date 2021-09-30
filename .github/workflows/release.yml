@@ -7,7 +7,7 @@ on:
 
 jobs:
   main:
-    name: NPM Release
+    name: Release package
     runs-on: ubuntu-latest
 
     steps:
