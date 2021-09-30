@@ -30,6 +30,6 @@ function compileLib() {
         .pipe(dest("lib"));
 }
 
-task('build:lib', series(lint, test, compileLib));
+task('build:lib', series(lint, compileLib));
 task("rebuild:lib", series(cleanLib, "build:lib"));
 task("test", test);
