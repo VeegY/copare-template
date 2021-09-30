@@ -20,7 +20,10 @@ This repository does publish packages to the private registry available within [
 3. Create a [personal-access-token](https://github.com/settings/tokens) with the scopes ``read:packages``, ``write:packages`` and ``repo``.
 This token has to be added as a [repository secret](https://docs.github.com/en/actions/security-guides/encrypted-secrets) with the
 name ``NPM_TOKEN``.
-4. If you keep the develop-branch as target-branch make sure to add the actual branch.
+4. If you **do** keep the develop-branch as target-branch make sure to add the actual branch to the repository. The release action 
+does merge the master into the develop-branch after a successful release. Either delete this step of the action or change the 
+git config that has been set there.
+5. If you decide to **not** keep the develop-branch make sure to delete the last step of the release action.#
 
 ## Workflow
 There is no much limitation to what workflow to use. Any push on the main-branch will trigger a release. Currently, 
