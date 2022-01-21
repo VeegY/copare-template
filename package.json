@@ -18,7 +18,7 @@
     "README.md"
   ],
   "devDependencies": {
-    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.2",
     "@semantic-release/npm": "^8.0.3",
     "@types/chai": "^4.3.0",
