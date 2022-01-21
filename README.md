@@ -15,7 +15,7 @@ This repository does publish packages to the private registry available within [
 1. Navigate to the [copare-template repository](https://github.com/VeegY/copare-template) and [generate a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) based on this template
 2. Replace some values:
     * Change the [branch name in the action](https://github.com/VeegY/copare-template/blob/d0c2c446ec8f29d09a8a24c5c7f7004ec9287c12/.github/workflows/release.yml#L6) to match your default branch name.
-    * Change the [package name](https://github.com/VeegY/copare-template/blob/d0c2c446ec8f29d09a8a24c5c7f7004ec9287c12/package.json#L2). Has to start with either @<name> or @<organization> depending on where it is hosted.
+    * Change the [package name](https://github.com/VeegY/copare-template/blob/d0c2c446ec8f29d09a8a24c5c7f7004ec9287c12/package.json#L2). Has to start with either @-name- or @-organization- depending on where it is hosted.
     * Change the [repository url](https://github.com/VeegY/copare-template/blob/d0c2c446ec8f29d09a8a24c5c7f7004ec9287c12/package.json#L7) to match the newly created repository.
     * Optionally, change the dependabot [target-branch](https://github.com/VeegY/copare-template/blob/d0c2c446ec8f29d09a8a24c5c7f7004ec9287c12/.github/dependabot.yml#L10). Check the [workflow](#dependabot-pull-requests) section on why the develop-branch is the target-branch.
 3. Create a [personal-access-token](https://github.com/settings/tokens) with the scopes ``read:packages``, ``write:packages`` and ``repo``.
