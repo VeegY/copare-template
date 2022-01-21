@@ -9,4 +9,4 @@ updates:
       time: "07:00"
     target-branch: "develop"
     commit-message:
-      prefix: "Update: "
+      prefix: "Upgrade: "
