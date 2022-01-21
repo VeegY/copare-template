@@ -73,7 +73,7 @@ branch and adapt the [Gitflow Workflow](https://www.atlassian.com/git/tutorials/
 bit more than I would have liked to. In an ideal world developers and bots alike would just work on the main-branch
 and commit changes and features there which then would lead into an immediate upgrade of the package.
 However, since every dependabot pull request would trigger a patch-version increase this would lead to, at least I 
-think so, in a very fast increasing number and multiple version increases where there could just be one.
+think so, a very fast increasing number and multiple version increases (for each PR) where there could just be one.
 The dev branch is now used to aggregate commits or changes which then can be applied to the main-branch by a single
 pull request.
 
